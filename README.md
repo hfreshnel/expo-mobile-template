@@ -4,7 +4,7 @@ A starter Expo Router app pre-wired with the infra every app needs, and none
 of the business logic. Scaffold a new project with:
 
 ```
-npx create-expo-app my-app --template github.com/hfreshnel/expo-mobile-template
+npx create-expo-app my-app --template hfreshnel/expo-mobile-template
 ```
 
 `create-expo-app` handles renaming the app (`app.json`'s `name`/`slug`/
