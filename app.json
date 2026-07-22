@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "expo-mobile-template",
+    "name": "HelloWorld",
     "slug": "expo-mobile-template",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "expomobiletemplate",
+    "scheme": "helloworld",
     "userInterfaceStyle": "automatic",
     "ios": {
       "supportsTablet": true
@@ -33,10 +33,41 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
+      ],
+      "expo-secure-store",
+      "expo-updates",
+      "@sentry/react-native",
+      [
+        "expo-status-bar",
+        {
+          "style": "dark"
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "This app needs photo access to let you pick images.",
+          "cameraPermission": "This app needs camera access to let you take photos."
+        }
       ]
     ],
     "experiments": {
-      "typedRoutes": true
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/TODO-run-eas-init",
+      "enabled": true,
+      "checkAutomatically": "ON_LOAD",
+      "fallbackToCacheTimeout": 0
+    },
+    "extra": {
+      "eas": {
+        "projectId": "TODO-run-eas-init"
+      }
     }
   }
 }

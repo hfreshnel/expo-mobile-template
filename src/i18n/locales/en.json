@@ -1,0 +1,11 @@
+{
+  "common": {
+    "retry": "Retry",
+    "cancel": "Cancel",
+    "loading": "Loading…"
+  },
+  "auth": {
+    "login": "Log in",
+    "logout": "Log out"
+  }
+}
